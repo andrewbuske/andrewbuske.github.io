@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Andrew Buske</title> 
+    </head>
+    
+
+    <body>
+        <header> <!-- make this a separate doc --> <!-- header: usually strip across top of website-->
+            <h1>Andrew Buske</h1>
+
+            <nav> <!-- navigation bar: links to site's main sections, menu buttons usually-->
+                <ul>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+
+        <main> <!-- content unique to page -->
+            <!-- use <section> for single piece of functionality, begin w/ <heading> element -->
+            <!-- article can be inside section, section can be inside article-->
+            <!-- non-semantic elements: <div>, <span> -->
+            <!-- <hr>: thematic break element-->
+            <!-- <br>: line break element-->
+            <article> <!-- article: block of related content that makes sense on its own-->
+                <p>related content block</p>
+
+                <figure>
+                    <video src="videos/sonic-ice.mov" controls poster="images/andrew-buske-headshot.jpg" width="400" height="400">
+                        Video is not supported by the browser.
+                    </video>
+                </figure>     
+                
+                
+                <figure>
+                    <img src="images/andrew-buske-headshot.jpg" alt="Andrew Buske headshot" width="50" height="50"> <!-- good to set dimensions for loading purposes, do in CSS -->
+    
+                    <figcaption>Andrew Buske</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13735.880014005865!2d-96.37435006044923!3d30.6066093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864683f733c00001%3A0x9747b8a4b9c03bc8!2sTexas%20A%26M%20University!5e0!3m2!1sen!2sus!4v1655264142324!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+
+
+            <article>
+                <table>
+                    <caption>Pointless table caption</caption>
+                    <tr>
+                        <th>table</th>
+                        <th>t able</th>
+                        <th>goose</tH>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="2">ta ble</td>
+                    </tr>
+                    <tr>
+                        <td>gooset</td>
+                    </tr>
+                </table>
+
+                <table>
+                    <colgroup>
+                      <col>
+                      <col style="background-color: yellow" span="">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">Data 1</th>
+                            <th scope="col">Data 2</th>
+                          </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Calcutta</td>
+                            <td>Orange</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Robots</td>
+                            <td>Jazz</td>
+                        </tr>
+                    </tfoot>
+                  </table>
+            </article>
+
+            <aside> <!-- sidebar placed inside main-->
+                <ul>
+                    <li>one</li>
+                    <li>two</li>
+                </ul>
+            </aside>
+    
+            <p>This site is a work in progress...</p>
+        </main>
+    
+
+        <footer>foot copyright me/leave a comment <a href="https://www.linkedin.com/in/andrew-buske">Go to My LinkedIn Profile</a></footer>
+    </body>
+</html>
